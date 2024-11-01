@@ -29,11 +29,35 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
       const rootElement = document.getElementById("root");
-      const greeting = <h1 style={{ color: "green" }}>Hello World!</h1>;
+      const greeting = (
+        <h1 style={{ color: "green" }}>30 Days of React Challenge!</h1>
+      );
 
       const header = <header> Welcome to the Day 1 </header>;
-      const footer = <footer className="footer"> This is the footer </footer>;
-      const main = <div>{greeting}</div>;
+      const footer = <footer className="footer"> copyright 2024 </footer>;
+      const preRequisites = ["HTML", "CSS", "JSx", "JavaScript"];
+      const list = (
+        <div>
+          <p style={{ textAlign: "center" }}>Basic Prerequisites</p>
+          <ol
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              rowGap: "10px",
+            }}
+          >
+            {preRequisites.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ol>
+        </div>
+      );
+      console.log(list);
+      const main = (
+        <div>
+          {greeting} {list}
+        </div>
+      );
 
       const App = () => {
         return (
