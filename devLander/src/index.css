@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  background-color: #1b1e23;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  margin: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: whitesmoke;
+  gap: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+.devPhoto {
+  width: 210px;
+  height: 220px;
+}
+
+.name_card {
+  color: rgb(202, 199, 199);
+}
+h4 {
+  color: rgb(202, 199, 199);
+  margin: 25px 0 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: small;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color: whitesmoke;
+}
+
+.link_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.link_wrapper a {
+  margin: 3px;
+}
+
+.link_wrapper li {
+  display: flex;
+  font-size: small;
+}
+.skill-badge {
+  background-color: #1b1e23;
+  padding: 2px 8px 2px 8px;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 6px rgb(27, 30, 35),
+    /* Soft shadow */ 0 1px 3px rgba(0, 0, 0, 0.08); /* Slightly darker base shadow */
+
+  /* Transition for a subtle hover effect */
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: rgba(245, 245, 245, 0.858);
+  border: 0.5px solid rgba(245, 245, 245, 0.785);
+}
+
+.skill-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: #000;
+}
