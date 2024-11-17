@@ -22,7 +22,7 @@ export const skills = {
     "Leadership",
   ],
   languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
-  frontendFrameworks: [
+  frontendStack: [
     "React.js",
     "Next.js",
     "Vue.js",
@@ -31,13 +31,7 @@ export const skills = {
     "Bootstrap",
     "UI Libraries",
   ],
-  backendFrameworks: [
-    "Node.js",
-    "Express.js",
-    "Prisma.js",
-    "MongoDB",
-    "PostgreSQL",
-  ],
+  backendStack: ["Node.js", "Express.js", "Prisma.js", "MongoDB", "PostgreSQL"],
   tools: [
     "Figma",
     "Photoshop",
@@ -45,9 +39,10 @@ export const skills = {
     "Git/GitHub",
     "Jira",
     "Slack",
-    "Teams",
+    "Ms Teams",
     "MS/Google Suite",
     "Postman",
+    "Swagger",
   ],
   platforms: ["Azure", "Vercel"],
 };
